@@ -55,7 +55,7 @@ def Calculate():
 
         if 3 > float(user_input_2) > 0:
             bmi_1 = float(user_input_1) / squareinp
-            bmi_1 = round(bmi_1,2)
+            bmi_1 = round(bmi_1,1)
             between(bmi_1)
             label_3.place(x=40, y=240)
 
@@ -63,7 +63,7 @@ def Calculate():
             new_input_2 = float(user_input_2) / 100
             new_input_square = new_input_2 ** 2
             bmi_2 = float(user_input_1) / new_input_square
-            bmi_2 = round(bmi_2,2)
+            bmi_2 = round(bmi_2,1)
             between(bmi_2)
             label_3.place(x=40, y=240)
 
